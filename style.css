@@ -1,0 +1,411 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+   margin-left: 8.8%;
+} 
+
+.icon .logo{
+    font-size: 30px;
+}
+
+.content{
+    background-image: url(images/hero-bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.content-body{
+    background:rgba(0, 0, 0, 0.6);
+    display: flex;
+   
+}
+
+.caps h1{
+    color: white;
+}
+
+.caps h6{
+    color: white;
+    margin-top: 2%;
+}
+
+.caps{
+   margin: 18.2%;
+}
+
+
+.sub3head{
+    font-size: 25px;
+}
+
+.sub3para1{
+    font-size: 15px;
+}
+
+.bt1 i{
+    font-size: 11px;
+}
+
+.sub3card{
+  margin-top: 6.5%;
+}
+
+.card1{
+    border-color: white;
+}
+
+.content1{
+    background-image: url(images/cta-bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.content-body1{
+    background:rgba(0.7, 0.7, 0.7, 0.7);
+    display: flex;
+}
+
+.hr1{
+    width: 15%;
+    border: 2px solid ;
+    border-color: rgb(3, 107, 3);
+}
+
+.service{
+    background-color: aliceblue;
+}
+
+.servicecard{
+    border-color: #fff;
+}
+
+.servicecard:hover{
+    box-shadow: 2px 2px 10px;
+    transition: 0.6s ease;
+}
+
+.hr2{
+    width: 5%;
+    border: 2px solid ;
+    border-color: rgb(3, 107, 3); 
+}
+
+.f2{
+    background-color: #fff;
+    color: green;
+    border-radius: 50%;
+    border-color: green;
+    font-size: 37px;
+    text-align: center;
+    height: 60px;
+    width: 60px;
+    border: 1px solid;
+    display: inline-block;
+    margin-left: 2%;  
+    margin-top: 2%;
+}
+
+
+.f2:hover{
+    border-color: green;
+}
+
+.port1{
+    display: flex;
+    justify-content: center;
+}
+
+.port1 .p1{
+    background-color: green;
+    color: white;
+    border-radius: 46%;
+    list-style: none;
+}
+
+.p2{
+    list-style: none;
+}
+
+.p2:hover{
+    background-color: green;
+    color: white;
+    border-radius: 46%;
+    list-style: none;
+}
+
+.portfolio{
+    background-color: #fff;
+}
+
+.img-area img{
+    width: 30%;
+    border-radius: 50%;
+}
+
+.carocard{
+    margin-left: 10%;
+}
+
+.carousel-indicators{
+    top: 95%;
+}
+
+.test1 img{
+    width: 20%;
+    border-radius: 50%;
+}
+
+.carousel-indicators{
+    top: 105%;
+}
+
+.testimonial{
+   background-color: aliceblue;
+}
+
+.team img{
+    border-radius: 50%;
+}
+
+.fs3{
+    background-color: grey;
+    color: white;
+    border-radius: 50%;
+    border-color: green;
+    font-size: 24px;
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    border: 1px solid;
+    display: inline-block;
+    margin-left: 2%;  
+    margin-top: 2%;  
+}
+
+.teamfont .fs3:hover{
+    background-color: green;
+    color: white;
+}
+
+.teamcard{
+    border-color: white;
+}
+
+.contactpara{
+    font-size: 14px;
+}
+
+
+.contact .location i{
+    float: left;
+    font-size: 20px;
+    background-color: green;
+    color: white;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.contact .location h4{
+    margin-bottom: 10px;
+    font-size: 22px;
+    padding: 10px 0 0 80px;
+}
+
+.contact .location p{
+    font-size: 14px;
+    margin-bottom: 0;
+    padding: 0 0 10px 80px;
+}
+
+.contact .message{
+    width: 100%;
+}
+
+.contact .message i{
+    float: left;
+    font-size: 20px;
+    background-color: green;
+    color: white;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.contact .message h4{
+    margin-bottom: 10px;
+    font-size: 22px;
+    padding: 10px 0 0 80px;
+}
+
+.contact .message p{
+    font-size: 14px;
+    margin-bottom: 0;
+    padding: 0 0 10px 80px;
+}
+
+.contact .call{
+    width: 100%;
+}
+
+.contact .call i{
+    float: left;
+    font-size: 20px;
+    background-color: green;
+    color: white;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.contact .call h4{
+    margin-bottom: 10px;
+    font-size: 22px;
+    padding: 10px 0 0 80px
+}
+
+
+.contact .call p{
+    font-size: 14px;
+    margin-bottom: 0;
+    padding: 0 0 10px 80px;
+}
+
+.contactform{
+    padding: 30px;
+}
+
+
+.form-group input{
+    padding: 10px;
+}
+
+.contact form button{
+     border: green;
+}
+
+.form-group input:hover{
+   box-shadow: none;
+}
+
+.detailschevron li{
+    list-style: none;
+    font-size: 14px;
+}
+
+.detailschevron li i{
+    font-size: 10px;
+}
+
+.detailschevron li a{
+    text-decoration: none;
+}
+
+.subfooter{
+    background-color: aliceblue;
+}
+
+.footerfont i{
+   font-size: 20px;
+   background-color: green;
+   color: white;
+   width: 45px;
+   height: 45px;
+   display: inline-flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 50%;
+   float: right;
+   margin-left: 10px;
+}
+
+
+
+@media (max-width: 480px){
+
+.bottombar img{
+   padding: 15px 0 15px;
+}
+
+.subsection2 .col-md-3{
+    padding: 15px 0 15px;
+}
+
+.logo{
+    margin-left: 0;
+}
+
+.details3{
+    margin-top: 12px;
+}
+
+.details4{
+    margin-top: 12px;
+}
+
+}
+
+
+
+@media (max-width: 600px){
+
+.bottombar img{
+    padding: 15px 0 15px;
+ }
+     
+.subsection2 .col-md-3{
+     padding: 15px 0 15px;
+}
+     
+.logo{
+     margin-left: 0;
+}
+
+.details3{
+    margin-top: 12px;
+}
+
+.details4{
+    margin-top: 12px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
